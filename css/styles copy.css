@@ -615,7 +615,7 @@ button:focus,
 link:focus {
   outline: 0.5 solid var(--accent-color);
 }
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -631,8 +631,8 @@ link:focus {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-}
-.modal {
+} */
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -649,8 +649,8 @@ link:focus {
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.1);
-}
-.cross-frame {
+} */
+/* .cross-frame {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -671,21 +671,19 @@ link:focus {
 }
 .icon-cross {
   fill: currentColor;
-}
-.modal-header {
+} */
+/* .modal-header {
   color: var(--secondary-text-color);
   font-size: 20px;
   font-weight: 700;
   line-height: 1.15;
   text-align: center;
   margin-bottom: 12px;
-  /* margin-top: 40px; */
-}
-.modal-form {
+} */
+/* .modal-form {
   display: flex;
   flex-direction: column;
-  /* padding: 0px 40px 40px; */
-}
+} */
 label {
   margin: 0;
   padding: 0;
@@ -810,12 +808,12 @@ label {
 .modal-checkbox:checked + .checkbox-mod > .unchecked {
   opacity: 0;
 }
-.button.primary.form {
+/* .button.primary.form {
   width: 200px;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }

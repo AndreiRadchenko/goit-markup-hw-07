@@ -9,7 +9,7 @@
   font-family: inherit;
   cursor: pointer;
 }
-.button-hero {
+.button-primary {
   @extend %button;
   background-color: var(--accent-color);
   color: var(--background-color);

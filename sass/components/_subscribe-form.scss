@@ -38,8 +38,8 @@
     border-color: var(--accent-color);
   }
 }
-.subscribe-form__button {
-  @extend .button-hero;
+.subscribe-form__button-primary {
+  // @extend .button-primary;
   margin-left: 12px;
   display: flex;
   justify-content: center;
