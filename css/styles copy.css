@@ -250,7 +250,7 @@ body {
   padding-bottom: 94px;
   background-color: var(--background-color);
 } */
-.section-title {
+/* .section-title {
   margin-top: 0;
   margin-bottom: 50px;
   color: var(--secondary-text-color);
@@ -258,7 +258,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-}
+} */
 /* =================== BENEFITS SECTION ============ */
 /* .benefits {
   display: flex;
@@ -292,7 +292,7 @@ body {
   background-color: var(--button-background-color);
 } */
 /* =================== SPECIALIZATIO SECTION ====== */
-.specialization {
+/* .specialization {
   display: flex;
   justify-content: space-between;
 }
@@ -320,9 +320,9 @@ body {
   background-color: var(--specialization-bkg);
   color: var(--background-color);
   text-transform: uppercase;
-}
+} */
 /* =================== COMPANY SECTION ============= */
-.members.list {
+/* .members.list {
   display: flex;
   justify-content: space-between;
 }
@@ -356,7 +356,7 @@ body {
   line-height: 1.18;
   text-align: center;
   margin: 0 auto 16px;
-}
+} */
 /* .social-list {
   display: flex;
   align-items: center;
@@ -391,7 +391,7 @@ body {
   fill: currentColor;
 } */
 /* =================== PERMANENT SECTION ============= */
-.permanent.list {
+/* .permanent.list {
   display: flex;
   justify-content: center;
 }
@@ -415,8 +415,8 @@ body {
 .permanent-href:hover,
 .permanent-href:focus {
   border-color: var(--accent-color);
-  color: var(--accent-color);
-}
+  color: var(--accent-color); 
+}*/
 /* ================== GALLERY SECTION ============*/
 .secondary-button.list {
   display: flex;
@@ -492,16 +492,16 @@ body {
   line-height: 1.87;
 }
 /* ==================== FOOTER ==================== */
-.footer {
+/* .footer {
   background-color: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.footer.logo.link {
+} */
+/* .footer.logo.link {
   margin-bottom: 20px;
   padding: 0;
-}
-.footer-contacts {
+} */
+/* .footer-contacts {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -524,15 +524,15 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 81px;
-}
-.footer-contact-item:first-child {
+} */
+/* .footer-contact-item:first-child {
   padding-top: 0;
-}
-.footer-flex {
+} */
+/* .footer-flex {
   display: flex;
   align-items: baseline;
-}
-.ff-item.social {
+} */
+/* .ff-item.social {
   margin-left: 70px;
 }
 .social-title {
@@ -544,7 +544,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+} */
 /* .ff-item .social-list {
   padding: 0;
 }
@@ -593,10 +593,10 @@ body {
   width: 200px;
   height: 50px;
 }*/
-.send-icon {
+/* .send-icon {
   fill: currentColor;
   margin-left: 10px;
-}
+} */
 /* =============================== DECORATION ====================================== */
 @keyframes blockRotate {
   0% {

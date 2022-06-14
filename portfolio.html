@@ -292,16 +292,16 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-flex">
-        <div class="ff-item">
-          <a lang="en" class="footer logo link" href="/"
-            ><span class="logo-acent">Web</span>Studio</a
+      <div class="container footer__container">
+        <div class="footer-group">
+          <a lang="en" class="logo footer__logo" href="/"
+            ><span class="logo-accent">Web</span>Studio</a
           >
           <address>
-            <ul class="footer-contacts list">
-              <li class="footer-contact-item">
+            <ul class="footer-contacts">
+              <li class="footer-contacts__item">
                 <a
-                  class="footer-adress link"
+                  class="footer-contacts__link footer-contacts__link--adress"
                   href="https://goo.gl/maps/kmzWkeFPWZeqgjE26"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -309,63 +309,66 @@
                   м. Київ, пр-т Лесі Українки, 26
                 </a>
               </li>
-              <li class="footer-contact-item">
-                <a class="footer-contact link" href="mailto:info@example.com" lang="en"
+              <li class="footer-contacts__item">
+                <a class="footer-contacts__link" href="mailto:info@example.com" lang="en"
                   >info@example.com</a
                 >
               </li>
-              <li class="footer-contact-item">
-                <a class="footer-contact link" href="tel:+380991111111">+38 099 111 11 11</a>
+              <li class="footer-contacts__item">
+                <a class="footer-contacts__link" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="ff-item social">
-          <h3 class="social-title">приєднуйтесь</h3>
-          <ul class="social-list list">
-            <li class="social-item">
-              <a href="" class="social-href">
-                <svg class="social-icon" width="20" height="20">
+        <div class="footer-group social__footer-group">
+          <h3 class="footer-group__title">приєднуйтесь</h3>
+          <ul class="social-list footer__social-list">
+            <li class="social-list__item">
+              <a class="social-list__href social-list__href--dark" href="">
+                <svg class="social-list__icon" width="20" height="20">
                   <use href="./images/icon-sprite-compress.svg#icon-instagram" />
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a href="" class="social-href">
-                <svg class="social-icon" width="20" height="20">
+            <li class="social-list__item">
+              <a class="social-list__href social-list__href--dark" href="">
+                <svg class="social-list__icon" width="20" height="20">
                   <use href="./images/icon-sprite-compress.svg#icon-twitter" />
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a href="" class="social-href">
-                <svg class="social-icon" width="20" height="20">
+            <li class="social-list__item">
+              <a class="social-list__href social-list__href--dark" href="">
+                <svg class="social-list__icon" width="20" height="20">
                   <use href="./images/icon-sprite-compress.svg#icon-facebook" />
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a href="" class="social-href">
-                <svg class="social-icon" width="20" height="20">
+            <li class="social-list__item">
+              <a class="social-list__href social-list__href--dark" href="">
+                <svg class="social-list__icon" width="20" height="20">
                   <use href="./images/icon-sprite-compress.svg#icon-linkedin" />
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="ff-item form">
-          <h3 class="social-title">Підпишіться на розсилку</h3>
-          <form action="javascript:void(0);" class="footer-form">
+
+        <!-- subscribe form -->
+
+        <div class="footer-group subscribe__footer-group">
+          <h3 class="footer-group__title">Підпишіться на розсилку</h3>
+          <form action="javascript:void(0);" class="subscribe-form">
             <input
               type="email"
-              class="form-item email"
+              class="subscribe-form__email"
               name="footer email"
               id="footer-email"
               placeholder="E-mail"
             />
-            <button type="submit" class="button primary submit">
+            <button type="submit" class="button-primary subscribe-form__button-primary">
               Підписатися
-              <svg class="send-icon" width="24" height="24">
+              <svg class="subscribe-form__icon" width="24" height="24">
                 <use href="./images/icon-sprite-compress.svg#icon-send" />
               </svg>
             </button>

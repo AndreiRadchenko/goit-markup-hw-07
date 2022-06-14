@@ -1,0 +1,30 @@
+.clients {
+  @extend .list;
+  display: flex;
+  justify-content: center;
+}
+.clients__item {
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+.clients__link {
+  display: inline-flex;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--social-color);
+  border-radius: 4px;
+  color: var(--social-color);
+
+  @include customTransition(color, border-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+}
+.clients__icon {
+  fill: currentColor;
+}
