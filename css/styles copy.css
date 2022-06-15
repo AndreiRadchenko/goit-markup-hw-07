@@ -418,14 +418,14 @@ body {
   color: var(--accent-color); 
 }*/
 /* ================== GALLERY SECTION ============*/
-.secondary-button.list {
+/* .secondary-button.list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 .filter-item + .filter-item {
   margin-left: 8px;
-}
+} */
 .gallery.list {
   display: flex;
   flex-wrap: wrap;
